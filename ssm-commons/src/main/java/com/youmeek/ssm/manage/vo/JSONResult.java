@@ -30,4 +30,12 @@ public class JSONResult {
     public void setSuccess(String success) {
         this.success = success;
     }
+
+    public JSONResult(String success) {
+        this.success = success;
+    }
+
+    public JSONResult() {
+    }
+
 }
