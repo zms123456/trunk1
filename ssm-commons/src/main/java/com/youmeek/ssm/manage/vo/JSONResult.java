@@ -5,7 +5,15 @@ public class JSONResult {
     private String message;
     private String result;
     private String success;
+    private String name;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getMessage() {
         return message;
